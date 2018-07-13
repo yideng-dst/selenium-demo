@@ -7,7 +7,7 @@ from config.globalparameter import test_data_path
 '''
 
 
-class excel:
+class Excel:
     def __init__(self):
         self.mylog = log.log()
 
@@ -19,7 +19,7 @@ class excel:
         except Exception as e:
             self.mylog.error(u"打开excel文件失败")
 
-    def excel_table(self,file, sheetName):
+    def excel_table(self,file,sheetName):
         u'''装载list'''
         data = self.open_excel(file)
         # 通过工作表名称，获取到一个工作表
@@ -43,6 +43,14 @@ class excel:
             data_list = self.excel_table(test_data_path, sheetname)
             assert len(data_list)>=0,u'excel标签页:'+sheetname+u'为空'
             return data_list
+            print(data_list)
         except Exception as e:
             self.mylog.error(u'excel标签页:'+sheetname+u'为空')
             raise e
+
+if __name__=="__main__":
+    list = Excel
+    list.excel_table(file=test_data_path,sheetName='sheet1')
+    list.get_list(sheetname='sheet1')
+
+

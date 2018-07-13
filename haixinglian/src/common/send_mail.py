@@ -44,3 +44,4 @@ class send_email:
         new_report = os.path.join(gl.report_path,report_list[-1])
         # 发送邮件
         self.email_init(new_report,report_list[-1])
+

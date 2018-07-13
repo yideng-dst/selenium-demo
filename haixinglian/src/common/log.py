@@ -2,6 +2,8 @@
 import logging
 from config import globalparameter as gl
 import time
+import threading
+import os
 '''
 配置日志文件，输出INFO级别以上的日志
 '''
