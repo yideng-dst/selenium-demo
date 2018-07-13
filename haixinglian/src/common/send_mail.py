@@ -45,3 +45,6 @@ class send_email:
         # 发送邮件
         self.email_init(new_report,report_list[-1])
 
+if __name__=="__main__":
+    email = send_email()
+    email.sendReport()
