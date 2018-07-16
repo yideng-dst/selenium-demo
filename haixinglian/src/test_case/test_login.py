@@ -3,6 +3,9 @@ import unittest
 from selenium import webdriver
 from src.pages.login_page import LoginPage
 from time import sleep
+from config.globalparameter import test_data_path
+from src.common import excel_data
+from src.pages.home_page import HomePage
 '''
 project:海星链登录页面测试
 '''
@@ -12,22 +15,33 @@ class TestLogin(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
         self.url = 'https://www.haixinglian.com/passport-signin.html'
-        self.username = '13539831028'
-        self.password = 'ceshi123'
+        #self.username = '13539831028'
+        #self.password = 'ceshi123'
+        self.excel = excel_data.Excel()
         self.login_page = LoginPage(self.driver, self.url, u'海星链')
 
     def test_login_search(self):
-        u'''登录'''
-        try:
-            self.login_page.open()
-            self.login_page.input_username(self.username)
-            self.login_page.input_password(self.password)
-            self.login_page.click_login()
-            sleep(2)
-            self.assertIn(self.username, self.driver.find_element_by_id('uname_110').text)
-        except Exception as e:
-            self.login_page.img_screenshot(u'登陆')
-            raise e
+        u'''正常登录'''
+        keyword_list = self.excel.get_list(test_data_path+'login_data.xlsx','Sheet1')
+        for i in range(0, len(keyword_list)):
+            password = keyword_list[i]["密码"]
+            username = keyword_list[i]["用户名"]
+            if type(password) != str:
+                password = str(password)
+            if type(username) != str:
+                username = int(username)
+                username = str(username)
+            try:
+                self.login_page.open()
+                self.login_page.input_username(username)
+                self.login_page.input_password(password)
+                self.login_page.click_login()
+                sleep(2)
+                self.assertIn(username, self.driver.find_element_by_id('uname_110').text)
+                self.login_page.click_signout()
+            except Exception as e:
+                self.login_page.img_screenshot(u'登陆异常')
+                raise e
 
     def test_jump_forget(self):
         u'''跳转到找回密码页'''
@@ -36,7 +50,7 @@ class TestLogin(unittest.TestCase):
             self.login_page.click_forget_password()
             self.assertIn(u'找回密码',self.driver.find_element_by_xpath('/html/body/div[2]/div/h1').text)
         except Exception as e:
-            self.login_page.img_screenshot(u'登陆')
+            self.login_page.img_screenshot(u'跳转到找回密码页失败')
             raise e
 
     def test_jump_register(self):
@@ -46,7 +60,7 @@ class TestLogin(unittest.TestCase):
             self.login_page.click_register()
             self.assertIn(u'请选择你要注册的身份',self.driver.find_element_by_xpath('/html/body/div[5]/div/div/div/div[1]/span').text)
         except Exception as e:
-            self.login_page.img_screenshot(u'登陆')
+            self.login_page.img_screenshot(u'登陆_跳转到注册页失败')
             raise e
 
     def test_jump_WeChat(self):
@@ -57,7 +71,7 @@ class TestLogin(unittest.TestCase):
             #print(self.driver.title)
             self.assertIn('Log In to WeChat',self.driver.title)
         except Exception as e:
-            self.login_page.img_screenshot(u'登陆')
+            self.login_page.img_screenshot(u'登陆_跳转到微信失败')
             raise e
 
     def test_jump_QQ(self):
@@ -67,7 +81,7 @@ class TestLogin(unittest.TestCase):
             self.login_page.click_QQ_login()
             self.assertIn('QQ帐号安全登录',self.driver.title)
         except Exception as e:
-            self.login_page.img_screenshot(u'登陆')
+            self.login_page.img_screenshot(u'登陆_跳转到QQ失败')
             raise e
 
     def tearDown(self):

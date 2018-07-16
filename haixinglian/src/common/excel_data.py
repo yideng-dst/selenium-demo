@@ -1,7 +1,7 @@
 # coding:utf-8
 import xlrd
 from src.common import log
-from config.globalparameter import test_data_path
+
 '''
 读取excel文件
 '''
@@ -35,22 +35,18 @@ class Excel:
                 app = {}
                 for i in range(len(Tcolnames)):
                     app[Tcolnames[i]] = row[i]
-                    lister.append(app)
+                lister.append(app)
         return lister
 
-    def get_list(self,sheetname):
+    def get_list(self,file,sheetname):
         try:
-            data_list = self.excel_table(test_data_path, sheetname)
+            data_list = self.excel_table(file, sheetname)
             assert len(data_list)>=0,u'excel标签页:'+sheetname+u'为空'
             return data_list
-            print(data_list)
         except Exception as e:
             self.mylog.error(u'excel标签页:'+sheetname+u'为空')
             raise e
 
-if __name__=="__main__":
-    list = Excel
-    list.excel_table(file=test_data_path,sheetName='sheet1')
-    list.get_list(sheetname='sheet1')
+
 
 

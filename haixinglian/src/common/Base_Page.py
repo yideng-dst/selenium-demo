@@ -22,7 +22,7 @@ class BasePage(object):
         try:
             self.driver.get(url)
             self.driver.maximize_window()
-#           通过断言输入的title是否在当前title中
+    #   通过断言输入的title是否在当前title中
             assert page_title in self.driver.title, u'打开页面失败：%s' % url
         except:
             self.mylog.error(u'未能正确打开页面:'+url)

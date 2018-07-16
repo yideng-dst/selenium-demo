@@ -21,3 +21,8 @@ class HomePage(BasePage):
     offline_experience_loc = (By.XPATH,'//*[@id="nav"]/div/div/div[2]/div/a[4]')
     haixing_advantage_loc = (By.XPATH,'//*[@id="nav"]/div/div/div[2]/div/a[5]')
     commodity_classification_loc = (By.ID,'category_handle')
+    sign_out_loc = (By.XPATH,'//*[@id="member_110"]/a[3]')
+
+
+    def click_signout(self):
+        self.find_element(self.sign_out_loc).click()

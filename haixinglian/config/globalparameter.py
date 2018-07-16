@@ -15,7 +15,7 @@ project_path = r"C:\Users\diaost\PycharmProjects\GitHub\haixinglian"
 # 测试用例代码存放路径（用于构建suite,注意该文件夹下的文件都应该以test开头命名）
 test_case_path = project_path+"\\src\\test_case"
 # excel测试数据文档存放路径
-test_data_path = project_path+"\\Data\\login_data.xlsx"
+test_data_path = project_path+"\\Data\\"
 # 日志文件存储路径
 log_path = project_path+"\\log\\mylog.log"
 #print(u'日志路径：'+log_path)
