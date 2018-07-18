@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*_
-from PIL import Image
+'''from PIL import Image
 from pytesseract import *
 import PIL.ImageOps
 def initTable(threshold=140):
@@ -28,3 +28,14 @@ out.save('1.png')
 asd = pytesseract.image_to_string(out)
 print(asd)
 print (out.show())
+'''
+#from pytesser import *
+from PIL import ImageEnhance
+
+#image = Image.open('1.png')
+
+#使用ImageEnhance可以增强图片的识别率
+#enhancer = ImageEnhance.Contrast(image)
+#image_enhancer = enhancer.enhance(4)
+import ocr.pytesser
+text= ocr.pytesser.image_file_to_string("1.png")

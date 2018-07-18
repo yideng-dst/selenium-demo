@@ -5,7 +5,7 @@ from src.pages.login_page import LoginPage
 from time import sleep
 from config.globalparameter import test_data_path
 from src.common import excel_data
-from src.pages.home_page import HomePage
+
 '''
 project:海星链登录页面测试
 '''
@@ -15,31 +15,21 @@ class TestLogin(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
         self.url = 'https://www.haixinglian.com/passport-signin.html'
-        #self.username = '13539831028'
-        #self.password = 'ceshi123'
+        self.username = '13539831028'
+        self.password = 'ceshi123'
         self.excel = excel_data.Excel()
         self.login_page = LoginPage(self.driver, self.url, u'海星链')
 
     def test_login_search(self):
         u'''正常登录'''
-        keyword_list = self.excel.get_list(test_data_path+'login_data.xlsx','Sheet1')
-        for i in range(0, len(keyword_list)):
-            password = keyword_list[i]["密码"]
-            username = keyword_list[i]["用户名"]
-            if type(password) != str:
-                password = str(password)
-            if type(username) != str:
-                username = int(username)
-                username = str(username)
-            try:
+        try:
                 self.login_page.open()
-                self.login_page.input_username(username)
-                self.login_page.input_password(password)
+                self.login_page.input_username(self.username)
+                self.login_page.input_password(self.password)
                 self.login_page.click_login()
                 sleep(2)
-                self.assertIn(username, self.driver.find_element_by_id('uname_110').text)
-                self.login_page.click_signout()
-            except Exception as e:
+                self.assertIn(self.username, self.driver.find_element_by_id('uname_110').text)
+        except Exception as e:
                 self.login_page.img_screenshot(u'登陆异常')
                 raise e
 

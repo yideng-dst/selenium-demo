@@ -7,7 +7,7 @@ from ceshi.sogou_page import SogouPage
 from config.globalparameter import test_data_path
 '''sogou页面测试
 '''
-'''
+
 class TestSogou(unittest.TestCase):
     def setUp(self):
         self.mylog = log()
@@ -48,3 +48,4 @@ for i in range(0, len(keyword_list)):
     if type(keyword) != int:
         keyword = int(keyword)
     print(keyword)
+'''
