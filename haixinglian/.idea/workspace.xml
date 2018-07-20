@@ -14,10 +14,10 @@
     <SUITE FILE_PATH="coverage/haixinglian$data.coverage" NAME="data Coverage Results" MODIFIED="1529405134568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
     <SUITE FILE_PATH="coverage/haixinglian$runtest.coverage" NAME="runtest Coverage Results" MODIFIED="1531709649044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/haixinglian$send_mail.coverage" NAME="send_mail Coverage Results" MODIFIED="1531455957996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/common" />
-    <SUITE FILE_PATH="coverage/haixinglian$Unittests_for_test_login_TestLogin_test_jump_forget.coverage" NAME="Unittests for test_login.TestLogin.test_jump_forget Coverage Results" MODIFIED="1531903443374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test_case" />
+    <SUITE FILE_PATH="coverage/haixinglian$Unittests_for_test_login_TestLogin_test_jump_forget.coverage" NAME="Unittests for test_login.TestLogin.test_jump_forget Coverage Results" MODIFIED="1532083318191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test_case" />
     <SUITE FILE_PATH="coverage/haixinglian$excel_data.coverage" NAME="excel_data Coverage Results" MODIFIED="1531454277494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/common" />
     <SUITE FILE_PATH="coverage/haixinglian$Unittests_for_test_sogou_TestSogou_test_search.coverage" NAME="Unittests for test_sogou.TestSogou.test_search Coverage Results" MODIFIED="1531730804084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ceshi" />
-    <SUITE FILE_PATH="coverage/haixinglian$Unittests_for_test_login_TestLogin_test_login_search.coverage" NAME="Unittests for test_login.TestLogin.test_login_search Coverage Results" MODIFIED="1531903769117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test_case" />
+    <SUITE FILE_PATH="coverage/haixinglian$Unittests_for_test_login_TestLogin_test_login_search.coverage" NAME="Unittests for test_login.TestLogin.test_login_search Coverage Results" MODIFIED="1532084182538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test_case" />
     <SUITE FILE_PATH="coverage/haixinglian$1.coverage" NAME="1 Coverage Results" MODIFIED="1531881510821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ceshi" />
     <SUITE FILE_PATH="coverage/haixinglian$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1528445048272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ceshi" />
     <SUITE FILE_PATH="coverage/haixinglian$Unittests_in_test_sogou_py.coverage" NAME="Unittests in test_sogou.py Coverage Results" MODIFIED="1531734025526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ceshi" />
@@ -40,55 +40,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="excel_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/excel_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-              <folding>
-                <element signature="e#15#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Base_Page.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/Base_Page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-              <folding>
-                <element signature="e#15#72#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTMLTestRunner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/HTMLTestRunner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-52">
-              <caret line="103" column="7" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="send_mail.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/send_mail.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-              <folding>
-                <element signature="e#15#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="runtest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runtest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
+            <state relative-caret-position="600">
               <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
               <folding>
                 <element signature="e#15#35#0" expanded="true" />
@@ -97,20 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ceshi/1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_login.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_login.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test_case/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="30" column="94" selection-start-line="30" selection-start-column="94" selection-end-line="30" selection-end-column="94" />
+            <state relative-caret-position="443">
+              <caret line="40" column="87" selection-start-line="40" selection-start-column="87" selection-end-line="40" selection-end-column="87" />
               <folding>
                 <element signature="e#15#30#0" expanded="true" />
               </folding>
@@ -118,23 +64,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home_page.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/home_page.py">
+      <file leaf-file-name="log.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/log.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="87" column="61" lean-forward="true" selection-start-line="87" selection-start-column="61" selection-end-line="87" selection-end-column="61" />
+            <state relative-caret-position="30">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="e#15#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_sogou.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ceshi/test_sogou.py">
+      <file leaf-file-name="login_page.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/login_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
-              <folding>
-                <element signature="e#15#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mylog.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/mylog.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="-1873">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -142,6 +97,18 @@
       <file leaf-file-name="test_home.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test_case/test_home.py">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="test_sogou.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ceshi/test_sogou.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="25" selection-start-line="25" selection-end-line="26" selection-end-column="42" />
+              <folding>
+                <element signature="e#15#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -181,8 +148,8 @@
         <option value="$PROJECT_DIR$/ceshi/1.py" />
         <option value="$PROJECT_DIR$/ceshi/2.py" />
         <option value="$PROJECT_DIR$/ceshi/test_sogou.py" />
-        <option value="$PROJECT_DIR$/src/test_case/test_login.py" />
         <option value="$PROJECT_DIR$/src/pages/home_page.py" />
+        <option value="$PROJECT_DIR$/src/test_case/test_login.py" />
       </list>
     </option>
   </component>
@@ -212,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,21 +190,6 @@
               <item name="haixinglian" type="b2602c69:ProjectViewProjectNode" />
               <item name="haixinglian" type="462c0819:PsiDirectoryNode" />
               <item name="ceshi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="haixinglian" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haixinglian" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="haixinglian" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haixinglian" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="haixinglian" type="b2602c69:ProjectViewProjectNode" />
-              <item name="haixinglian" type="462c0819:PsiDirectoryNode" />
-              <item name="drive" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="haixinglian" type="b2602c69:ProjectViewProjectNode" />
@@ -277,6 +228,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -413,8 +365,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests for test_login.TestLogin.test_login_search" />
-        <item itemvalue="Python.test_sogou" />
         <item itemvalue="Python tests.Unittests for test_login.TestLogin.test_jump_forget" />
+        <item itemvalue="Python.test_sogou" />
         <item itemvalue="Python.2" />
         <item itemvalue="Python.1" />
       </list>
@@ -434,39 +386,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_login_TestLogin_test_login_search - 2018.07.16 at 18h 25m 30s.xml">
+    <history-entry file="Unittests_for_test_login_TestLogin_test_login_search - 2018.07.20 at 18h 06m 54s.xml">
       <configuration name="Unittests for test_login.TestLogin.test_login_search" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_login_TestLogin_test_login_search - 2018.07.16 at 18h 26m 44s.xml">
+    <history-entry file="Unittests_for_test_login_TestLogin_test_login_search - 2018.07.20 at 18h 11m 39s.xml">
       <configuration name="Unittests for test_login.TestLogin.test_login_search" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_login_TestLogin_test_login_search - 2018.07.16 at 18h 35m 59s.xml">
+    <history-entry file="Unittests_for_test_login_TestLogin_test_login_search - 2018.07.20 at 18h 12m 33s.xml">
       <configuration name="Unittests for test_login.TestLogin.test_login_search" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_login_TestLogin_test_login_search - 2018.07.16 at 18h 37m 41s.xml">
+    <history-entry file="Unittests_for_test_login_TestLogin_test_login_search - 2018.07.20 at 18h 13m 43s.xml">
       <configuration name="Unittests for test_login.TestLogin.test_login_search" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_login_TestLogin_test_login_search - 2018.07.16 at 18h 39m 15s.xml">
+    <history-entry file="Unittests_for_test_login_TestLogin_test_login_search - 2018.07.20 at 18h 14m 35s.xml">
       <configuration name="Unittests for test_login.TestLogin.test_login_search" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_login_TestLogin_test_login_search - 2018.07.16 at 18h 42m 36s.xml">
+    <history-entry file="Unittests_for_test_login_TestLogin_test_login_search - 2018.07.20 at 18h 15m 18s.xml">
       <configuration name="Unittests for test_login.TestLogin.test_login_search" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_login_TestLogin_test_login_search - 2018.07.17 at 09h 15m 32s.xml">
+    <history-entry file="Unittests_for_test_login_TestLogin_test_login_search - 2018.07.20 at 18h 34m 14s.xml">
       <configuration name="Unittests for test_login.TestLogin.test_login_search" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_login_TestLogin_test_jump_forget - 2018.07.18 at 16h 44m 03s.xml">
+    <history-entry file="Unittests_for_test_login_TestLogin_test_jump_forget - 2018.07.20 at 18h 41m 47s.xml">
       <configuration name="Unittests for test_login.TestLogin.test_jump_forget" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_login_TestLogin_test_login_search - 2018.07.18 at 16h 44m 52s.xml">
-      <configuration name="Unittests for test_login.TestLogin.test_login_search" configurationId="tests" />
+    <history-entry file="Unittests_for_test_login_TestLogin_test_jump_forget - 2018.07.20 at 18h 42m 11s.xml">
+      <configuration name="Unittests for test_login.TestLogin.test_jump_forget" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_login_TestLogin_test_login_search - 2018.07.18 at 16h 49m 49s.xml">
+    <history-entry file="Unittests_for_test_login_TestLogin_test_login_search - 2018.07.20 at 18h 55m 53s.xml">
       <configuration name="Unittests for test_login.TestLogin.test_login_search" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -474,15 +426,16 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46868008" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36241612" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295964" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21695095" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21908316" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.10046368" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32998455" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3982103" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -491,32 +444,31 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="调试" order="7" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25797102" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="运行" order="7" visible="true" weight="0.3299435" />
+      <window_info anchor="bottom" id="Python Console" order="14" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.3299435" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="bottom" id="调试" order="13" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Python Console" order="14" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,35 +494,21 @@
           <line>1</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/test_case/test_login.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/test_case/test_login.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test_case/geckodriver.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="-180" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Python/Python36/Lib/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="668" selection-start-line="668" selection-end-line="668" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/201807131125Report.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error_img/201807131733登陆_正常登录.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error_img/201807131605登陆.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/HTMLTestRunnerScreenshot.py" />
     <entry file="file://$PROJECT_DIR$/src/common/HTMLTestRunnerPie.py" />
     <entry file="file://$PROJECT_DIR$/report/201807161035Report.html">
@@ -590,16 +528,6 @@
     <entry file="file://$PROJECT_DIR$/ceshi/sogou_page.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#15#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python/Python36/Lib/site-packages/xlrd/book.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -617,37 +545,10 @@
     <entry file="file://$PROJECT_DIR$/ceshi/baidu_page.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/error_img/201807161551搜狗搜索.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/mylog.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="-614">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error_img/201807161520搜狗搜索.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://C:/Python/Python36/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32160">
-          <caret line="1085" selection-start-line="1085" selection-end-line="1085" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/globalparameter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -695,13 +596,7 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://C:/Python/Python36/Lib/site-packages/pytesser.py" />
-    <entry file="file://C:/Python/Python36/Lib/site-packages/ocr/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Python/Python36/Lib/site-packages/ocr/util.py" />
     <entry file="file://C:/Python/Python36/Lib/site-packages/PIL/Image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -709,13 +604,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python/Python36/Lib/site-packages/ocr/pytesser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Python/Python36/Lib/site-packages/ocr/pytesser.py" />
     <entry file="file://C:/Python/Python36/Lib/subprocess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6156">
@@ -747,26 +636,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ceshi/2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ceshi/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/excel_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
+        <state relative-caret-position="1080">
           <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
           <folding>
             <element signature="e#15#26#0" expanded="true" />
@@ -774,26 +646,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/Base_Page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-          <folding>
-            <element signature="e#15#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/HTMLTestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
+        <state relative-caret-position="3090">
           <caret line="103" column="7" selection-start-line="103" selection-start-column="7" selection-end-line="103" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/send_mail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
+        <state relative-caret-position="1320">
           <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
           <folding>
             <element signature="e#15#40#0" expanded="true" />
@@ -803,7 +665,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/runtest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
+        <state relative-caret-position="600">
           <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
           <folding>
             <element signature="e#15#35#0" expanded="true" />
@@ -811,33 +673,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ceshi/test_sogou.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test_case/test_home.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test_case/test_login.py">
+    <entry file="file://$PROJECT_DIR$/error_img/201807161551搜狗搜索.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="30" column="94" selection-start-line="30" selection-start-column="94" selection-end-line="30" selection-end-column="94" />
+        <state relative-caret-position="484">
+          <caret line="87" column="61" selection-start-line="87" selection-start-column="61" selection-end-line="87" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error_img/201807131605登陆.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error_img/201807161520搜狗搜索.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error_img/201807161739登陆异常.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error_img/201807181629登陆异常.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/error_img/201807131733登陆_正常登录.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceshi/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceshi/2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python36/Lib/site-packages/selenium/webdriver/common/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Python36/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-331">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ceshi/test_sogou.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" selection-start-line="25" selection-end-line="26" selection-end-column="42" />
           <folding>
             <element signature="e#15#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home_page.py">
+    <entry file="file://$PROJECT_DIR$/error_img/201807201748登陆异常.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/mylog.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-1873">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/login_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="87" column="61" lean-forward="true" selection-start-line="87" selection-start-column="61" selection-end-line="87" selection-end-column="61" />
+        <state relative-caret-position="390">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#15#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/Base_Page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test_case/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="40" column="87" selection-start-line="40" selection-start-column="87" selection-end-line="40" selection-end-column="87" />
+          <folding>
+            <element signature="e#15#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
