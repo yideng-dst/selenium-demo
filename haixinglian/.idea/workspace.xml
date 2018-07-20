@@ -125,6 +125,7 @@
       <find>test</find>
       <find>Detail</find>
       <find>error</find>
+      <find>assertIn</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -168,7 +169,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1727" />
