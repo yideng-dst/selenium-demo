@@ -54,15 +54,36 @@ class TestLogin(unittest.TestCase):
             self.login_page.img_screenshot(u'跳转到找回密码页失败')
             raise e
 
-    def test_jump_register(self):
+    def test_jump_register1(self):
         u'''跳转到注册页'''
         try:
             self.login_page.open()
-            self.login_page.click_register()
-            self.assertIn(u'请选择你要注册的身份',self.driver.find_element_by_xpath('/html/body/div[5]/div/div/div/div[1]/span').text)
+            self.login_page.click_register1()
+            self.assertIn(u'采购商认证页',self.driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div[1]/span[1]').text)
         except Exception as e:
             self.login_page.img_screenshot(u'登陆_跳转到注册页失败')
             raise e
+
+    def test_jump_register2(self):
+        u'''跳转到注册页'''
+        try:
+            self.login_page.open()
+            self.login_page.click_register2()
+            self.assertIn(u'采购商认证页',self.driver.find_element_by_xpath('/html/body/div[1]/div/div/div[2]/div[1]/span[1]').text)
+        except Exception as e:
+            self.login_page.img_screenshot(u'登陆_跳转到注册页失败')
+            raise e
+
+    def test_jump_offline(self):
+        u'''跳转到线下体验'''
+        try:
+            self.login_page.open()
+            sleep(3)
+            self.login_page.click_offline()
+            #driver.find_element_by_xpath('//*[@id="header"]/div/div/div[2]/span[2]/a').click()
+            self.assertIn('Ture',self.driver.find_element_by_xpath('//*[@id="nav"]/div/div/div[2]/div/a[4]').is_selected())
+        except Exception as e:
+            self.login_page.img_screenshot(u'跳转线下体验失败')
 
     def test_jump_WeChat(self):
         u'''跳转到微信'''

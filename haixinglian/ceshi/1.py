@@ -1,4 +1,5 @@
 # -*- coding: UTF-8 -*_
+import cv2
 '''from PIL import Image
 from pytesseract import *
 import PIL.ImageOps
@@ -37,5 +38,24 @@ from PIL import ImageEnhance
 #使用ImageEnhance可以增强图片的识别率
 #enhancer = ImageEnhance.Contrast(image)
 #image_enhancer = enhancer.enhance(4)
-import ocr.pytesser
-text= ocr.pytesser.image_file_to_string("1.png")
+#import ocr.pytesser
+#text= ocr.pytesser.image_file_to_string("1.png")
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium import webdriver
+
+driver = webdriver.Firefox()
+url = 'https://www.haixinglian.com/passport-signin.html'
+driver.get(url)
+
+offline_experience_loc = (By.XPATH, '//*[@id="header"]/div/div/div[2]/span[2]/a[1]')
+def find_element(*loc):
+    try:
+        WebDriverWait(driver, 10).until(EC.visibility_of_element_located(loc))
+        return driver.find_element(*loc)
+    except:
+        print(1)
+        #self.mylog.error(u'找不到元素:' + str(loc))
+e= find_element(*offline_experience_loc)
+e.click()
